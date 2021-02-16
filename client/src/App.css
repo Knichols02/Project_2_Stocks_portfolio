@@ -1,0 +1,265 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body {
+  background-color: rgb(251, 253, 255);
+  border: 3px solid #1daec7;
+  margin: 5px;
+}
+
+.header {
+  /* background-color: rgb(114, 158, 242); */
+  text-align: left ;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: #1583cc;
+}
+.reviews {
+  margin: 20px;
+  text-align: center;
+}
+
+.advertisment {
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center; */
+  
+  background-color: powderblue;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 20px;
+  width: 400px;
+  height: 80px;
+  font-size: 0.9em;
+  color: #51bacc;
+}
+
+h3 {
+  text-align: center;
+  color: #1583cc;
+}
+
+h2 {
+  color: #1a8dda;
+  margin: 30px;
+}
+.header-hr {
+  border: 1px solid #1daec7;
+}
+.footer-hr {
+border: 1px solid #1daec7 ;
+}
+
+.form-heading {
+  margin: 30px;
+  color: #1583cc;
+  font-size: 16px;
+}
+.index-data-area{
+  /* background-color: rgb(153, 206, 241); */
+  background-color: powderblue ;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: left;
+  padding: 10px 5px;
+  align-content: center;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.index-row:hover {
+  background-color: rgb(164, 216, 235);
+  border-radius: 5px;
+  color: #2aacc9;
+}
+
+.scrollview-data {
+  /* background-color: rgb(202, 217, 245); */
+  background-color: powderblue;
+  border:2px solid  powderblue;
+  border-collapse: collapse;
+  border-radius: 5px;
+  width: 90%;
+  height: 35vh;
+  align-content: center;
+  margin-top: 20px;
+  margin-left:auto; 
+  margin-right:auto;
+  padding: 20px;
+}
+
+.portfolio-table {
+margin: 10px;
+padding: 5px 5px;
+}
+
+.portfolio-data {
+  background-color: powderblue;
+  border:2px solid  rgb(157, 214, 221);
+  border-collapse: collapse;
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items:center;
+  border-radius: 5px;
+  align-content: space-between;
+  margin-left:auto; 
+  margin-right:auto;
+  padding: 10px;
+}
+
+.portfolio-data:hover {
+  background-color: rgb(179, 218, 244);
+  border-radius: 5px;
+  color: #5078e6;
+}
+
+.delete-button {
+  background-color: powderblue;
+}
+th {
+  background-color: #7ac6d3;
+  color: black;
+}
+
+th,
+td {
+    width: 150px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+}
+#portfolioData {
+  background-color: aliceblue;
+  width: auto;
+}
+
+.stock-form {
+  background-color: #93d8e4;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  max-width: 40%;
+  margin: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
+  font-size: 0.9em;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 5px 5px;
+  margin: 5px;
+  box-shadow: 1px 1px 3px;
+}
+
+input[type="submit"] {
+  padding: 5px 5px;
+  margin: 5px;
+  box-shadow: 1px 2px 5px #5555;
+  background-color: #7ac7c8;
+  color: rgb(54, 61, 61);
+  border: whitesmoke;
+  font-weight: 100px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-data input, .form-data select {
+  width: 200px;
+  border: solid 3px gray;
+  font-size: 1em;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.form-data textarea {
+  border: solid 3px gray;
+  font-size: 1em;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.form-data input:hover, textarea:hover, select:hover {
+  border: solid 3px #7ac7c8;
+}
+.form-data input:focus, textarea:focus, select:focus {
+  border: solid 3px #1515cc;
+}
+.form-data input:focus {
+  width: 200px;
+}
+.form-data textarea:focus {
+  width: 500px;
+}
+
+.search-group{
+  display: inline-block;
+  background-color: powderblue;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.search-group input{
+  padding: 5px;
+  font-size: 1.2em;
+  border-radius: 3px;
+}
+
+.btn{
+  background-color: blue;
+  border-radius: 3px;
+  margin-left: 10px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.stockinfo {
+  display: flex;
+  flex-flow: row;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
