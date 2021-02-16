@@ -1,3 +1,2 @@
-# wk8_day4_react_express_mogodb_project
+# CodeClan Group Project - Stocks Portfolio 
 
-The installation details will be added here.
